@@ -1,5 +1,7 @@
 # docker-wso2apim
-[ ![Codeship Status for ihcsim/docker-wso2apim](https://app.codeship.com/projects/f9f472e0-c271-0134-3993-22c030d3a647/status?branch=master)](https://app.codeship.com/projects/197444) [![](https://images.microbadger.com/badges/version/isim/wso2apim:2.0.0.svg)](https://microbadger.com/images/isim/wso2apim:2.0.0 "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/commit/isim/wso2apim:2.0.0.svg)](https://microbadger.com/images/isim/wso2apim:2.0.0 "Get your own commit badge on microbadger.com") [![](https://images.microbadger.com/badges/image/isim/wso2apim:2.0.0.svg)](https://microbadger.com/images/isim/wso2apim:2.0.0 "Get your own image badge on microbadger.com")
+[ ![Codeship Status forfirshme/wso2-api-manager]
+
+https://hub.docker.com/r/firshme/wso2-api-manager/
 
 Docker image to install and run WSO2 API Manager.
 
@@ -15,7 +17,7 @@ The Dockerfile will:
 ## Usage
 To run the WSO2 API Manager:
 ```sh
-$ docker run -d --name apim -p 9443:9443 isim/wso2apim
+$ docker run -d --name apim -p 9443:9443 firshme/wso2-api-manager
 ```
 
 To access the web UI:
