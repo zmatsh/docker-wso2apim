@@ -1,5 +1,5 @@
 FROM appropriate/curl
-MAINTAINER Ivan Sim, ihcsim@gmail.com
+MAINTAINER zhangjianxin
 
 ENV MAX_RETRIES=100
 COPY test/http.sh /test/http.sh
