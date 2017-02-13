@@ -1,9 +1,9 @@
-FROM isim/oraclejava:1.8.0_101
-MAINTAINER Ivan Sim, ihcsim@gmail.com
+FROM firshme/oraclejava:1.8.0_101
+MAINTAINER zhangjianxin
 
 ARG VCS_REF
 LABEL org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/ihcsim/docker-wso2apim"
+      org.label-schema.vcs-url="https://github.com/zmatsh/docker-wso2apim"
 
 ARG APIM_VERSION=${APIM_VERSION:-2.0.0}
 RUN wget -P /opt https://s3-us-west-2.amazonaws.com/wso2-stratos/wso2am-${APIM_VERSION}.zip && \
